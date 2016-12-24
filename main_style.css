@@ -17,7 +17,7 @@ body {
     position: absolute;
     font-family: Xolonium;
 }
-.background {
+/*.background {
     background-repeat: no-repeat;
     background-position: fixed;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ body {
     left: 0px;
     position: absolute;
     background-size: cover;
-}
+}*/
 ul.topnav {
     list-style-type: none;
     margin: 0;
