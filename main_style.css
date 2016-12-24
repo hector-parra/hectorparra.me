@@ -7,12 +7,12 @@ body {
     width: 100%;
     background-position: fixed;
     background-attachment: fixed;
-    background: 100%, auto;
     margin: 0;
     /*background-image: url("Crystal_07.png");*/
     /*text-align: center;*/
     top: 0px;
     left: 0px;
+    background-size: cover;
     /*z-index: -1;*/
     position: absolute;
     font-family: Xolonium;
