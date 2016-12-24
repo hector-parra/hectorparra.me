@@ -2,7 +2,7 @@
     font-family: Xolonium; src: url('Xolonium-Regular.otf');
 }
 body {
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     height: auto;
     width: 100%;
     background-position: fixed;
@@ -22,11 +22,9 @@ background-repeat: no-repeat;
     background-position: fixed;
     background-attachment: fixed;
     margin: 0;
-    /*background-image: url("Crystal_07.png");*/
-    /*text-align: center;*/
+    width: 100%;
     top: 0px;
     left: 0px;
-    /*z-index: -1;*/
     position: absolute;
     background-size: cover;
 }
