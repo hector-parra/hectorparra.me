@@ -1,17 +1,30 @@
 body {
-    margin: 0;
-    background-image: url("Crystal_07.png");
-    background-repeat: no-repeat;
+background-repeat: no-repeat;
     height: auto;
     width: 100%;
-    /*text-align: center;*/
     background-position: fixed;
     background-attachment: fixed;
     background: 100%, auto;
+    margin: 0;
+    /*background-image: url("Crystal_07.png");*/
+    /*text-align: center;*/
     top: 0px;
     left: 0px;
     /*z-index: -1;*/
     position: absolute;
+}
+.background {
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    margin: 0;
+    /*background-image: url("Crystal_07.png");*/
+    /*text-align: center;*/
+    top: 0px;
+    left: 0px;
+    /*z-index: -1;*/
+    position: absolute;
+    background-size: cover;
 }
 ul.topnav {
     list-style-type: none;
