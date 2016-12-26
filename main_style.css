@@ -1,5 +1,5 @@
 @font-face{
-    font-family: Xolonium; src: url('Xolonium-Regular.otf');
+    font-family: Xolonium; src: url('fonts/Xolonium-Regular.otf');
 }
 body {
     background-repeat: no-repeat;
@@ -8,26 +8,12 @@ body {
     background-position: fixed;
     background-attachment: fixed;
     margin: 0;
-    /*background-image: url("Crystal_07.png");*/
-    /*text-align: center;*/
     top: 0px;
     left: 0px;
     background-size: cover;
-    /*z-index: -1;*/
     position: absolute;
     font-family: Xolonium;
 }
-/*.background {
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-attachment: fixed;
-    margin: 0;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    background-size: cover;
-}*/
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -46,43 +32,40 @@ ul.topnav li a {
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
-    border-bottom: 5px solid #B4B4B4;
 }
 ul.topnav li a:hover {
     background-color: #B4B4B4;
     color: #12387f;
-    border-bottom: 5px solid #12387f;
 }
 ul.topnav li a.active {
     background-color: #B4B4B4;
     color: #12387f;
-    border-bottom: 5px solid #12387f;
 }
 ul.topnav li.icon {
     display: none;
 }
 @media screen and (max-width:680px) {
-    l.topnav li:not(:first-child) {display: none;}
-    ul.topnav li.icon {
-        display: inline-block;
-    }
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
 }
 @media screen and (max-width:680px) {
-    ul.topnav.responsive {
-        position: relative;
-    }
-    ul.topnav.responsive li.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    ul.topnav.responsive li {
-        display: inline;
-    }
-    ul.topnav.responsive li a {
-        display: block;
-        text-align: left;
-    }
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+   ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
 }
 img.logo {
     display: block;
@@ -127,7 +110,7 @@ body {
    padding: 0;
 
 }
-.wrap {
+.gallery {
    overflow: hidden;
    margin: 10px;
 }
@@ -148,7 +131,7 @@ body {
 .boxInner img {
    width: 100%;
 }
-body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    margin-bottom: 0;
 }
 @media only screen and (max-width : 480px) {
@@ -173,7 +156,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
    }
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
-   /* Medium desktop: 4 tiles */
    .box {
       width: 25%;
       padding-bottom: 25%;
