@@ -162,6 +162,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    }
 }
 td{
+    margin: 5%;
     text-align: center;
 }
 table{
