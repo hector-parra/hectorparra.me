@@ -166,7 +166,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
         height: auto;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-bottom: auto;
     }
 }
@@ -181,11 +181,11 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    }
    img.logo {
         display: block;
-        width: 60%;
+        width: 70%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20%;
+        margin-top: 10%;
         margin-bottom: auto;
     }
 }
@@ -199,11 +199,11 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    }
    img.logo {
         display: block;
-        width: 60%;
+        width: 70%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20%;
+        margin-top: 10%;
         margin-bottom: auto;
     }
 }
