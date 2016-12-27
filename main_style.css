@@ -162,10 +162,9 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    }
 }
 td{
-    width: 50%;
-    height: auto;
+    text-align: center;
 }
 table{
     width: 100%;
-    
+
 }
