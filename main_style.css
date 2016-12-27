@@ -181,12 +181,9 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    }
 }
 
-/*td{
-    width: 40%;
-    margin: 5%;
-    text-align: center;
-}
-table{
-    width: 100%;
 
-}*/
+
+
+.fb-page, .fb-page span, .fb-page span iframe[style] { 
+    width: 100% !important; 
+}
