@@ -250,3 +250,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
     font-size: 1.2em;
 }
 }
+#background{
+    width: 100%;
+}
