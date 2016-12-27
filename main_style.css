@@ -218,6 +218,8 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       .socialmedia {
           width: 100%;
           background-color: #434343;
+          border: 2% solid #434343;
+
       }
       .twitter{
           width: 44%;
