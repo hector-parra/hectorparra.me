@@ -87,15 +87,6 @@ footer {
     padding: 1%;
     border: 2 em solid #12387F;
 }
-#intro {
-    background-color: white;
-    box-shadow: 2%, 2%, 2%, black;
-    margin: 7%;
-    color: #12387F;
-    padding: 5%;
-    border: 1em solid #434343;
-    font-size: 1.2em;
-}
 body {
    margin: 0;
    padding: 0;
@@ -150,6 +141,14 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
         margin-top: 5%;
         margin-bottom: auto;
     }
+    #intro {
+    background-color: white;
+    margin: 5%;
+    color: #12387F;
+    padding: 4%;
+    border: .5em solid #434343;
+    font-size: 1em;
+}
 
 }
 @media only screen and (max-width : 650px) and (min-width : 481px) {
@@ -171,6 +170,14 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
         margin-top: 5%;
         margin-bottom: auto;
     }
+    #intro {
+    background-color: white;
+    margin: 5%;
+    color: #12387F;
+    padding: 4%;
+    border: 1em solid #434343;
+    font-size: 1.1em;
+}
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
    /* Small desktop / ipad view: 3 tiles */
@@ -191,6 +198,14 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
         margin-top: 10%;
         margin-bottom: auto;
     }
+    #intro {
+    background-color: white;
+    margin: 7%;
+    color: #12387F;
+    padding: 5%;
+    border: 1em solid #434343;
+    font-size: 1.2em;
+}
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    .box {
@@ -210,4 +225,12 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
         margin-top: 5%;
         margin-bottom: auto;
     }
+    #intro {
+    background-color: white;
+    margin: 7%;
+    color: #12387F;
+    padding: 5%;
+    border: 1em solid #434343;
+    font-size: 1.2em;
+}
 }
