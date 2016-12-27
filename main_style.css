@@ -21,26 +21,27 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #434343;
+    background-color: transparent;
 }
 ul.topnav li {
     float: left
 }
 ul.topnav li a {
     display: inline-block;
-    color: #B4B4B4;
+    color: #12387f;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+    margin-right: 5%;
 }
 ul.topnav li a:hover {
-    background-color: #B4B4B4;
+    background-color:transparent;
     color: #12387f;
 }
 ul.topnav li a.active {
-    background-color: #B4B4B4;
+    background-color: transparent;
     color: #12387f;
 }
 ul.topnav li.icon {
@@ -74,17 +75,19 @@ h2 {
     text-align: center;
 }
 footer {
-    color: #B4B4B4;
+    color: #12387F;
+    border: .05em solid white;
     bottom: 0;
     display: block;
     text-align: center;
-    background-color: #434343;
-    position: relative;
+    background-color: transparent;
+    position: absolute;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     margin-bottom: 0%;
     height: auto;
     margin-top: 4%;
+    font-size: 17px;
 }
 #request {
     background-color: #1d5bcc;
@@ -146,7 +149,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
     margin: 5%;
     color: #12387F;
     padding: 4%;
-    border: .4em solid #434343;
     font-size: 1em;
     }
 
@@ -175,7 +177,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
     margin: 5%;
     color: #12387F;
     padding: 4%;
-    border: .4em solid #434343;
     font-size: 1.1em;
     }
 }
@@ -203,7 +204,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
     margin: 7%;
     color: #12387F;
     padding: 5%;
-    border: 1em solid #434343;
     font-size: 1.2em;
     }
 }
@@ -242,7 +242,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
     margin: 7%;
     color: #12387F;
     padding: 5%;
-    border: 1em solid #434343;
     font-size: 1.2em;
     }
 }
