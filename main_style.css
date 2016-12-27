@@ -148,7 +148,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    }
       .socialmedia {
        width: 50%;
-       padding-bottom: 50%;
    }
 
 }
@@ -160,7 +159,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    }
    .socialmedia{
        width: 100%;
-       padding-bottom: 100%
    }
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
@@ -171,7 +169,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    }
    .socialmedia{
        width: 100%;
-       padding-bottom: 100%
    }
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
@@ -181,7 +178,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    }
       .socialmedia{
        width: 100%;
-       padding-bottom: 100%
    }
 }
 
