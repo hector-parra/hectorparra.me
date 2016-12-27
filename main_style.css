@@ -162,6 +162,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    }
 }
 td{
-    width: auto;
+    width: 50%;
     height: auto;
 }
