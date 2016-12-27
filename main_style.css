@@ -67,15 +67,6 @@ ul.topnav li.icon {
     text-align: left;
   }
 }
-img.logo {
-    display: block;
-    width: 60%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    margin-bottom: auto;
-}
 h2 {
     color: #434343;
     text-align: center;
@@ -149,6 +140,15 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       .socialmedia {
        width: 50%;
    }
+   img.logo {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: auto;
+    }
 
 }
 @media only screen and (max-width : 650px) and (min-width : 481px) {
@@ -160,6 +160,15 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    .socialmedia{
        width: 100%;
    }
+   img.logo {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        margin-bottom: auto;
+    }
 }
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
    /* Small desktop / ipad view: 3 tiles */
@@ -170,6 +179,15 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    .socialmedia{
        width: 100%;
    }
+   img.logo {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+        margin-bottom: auto;
+    }
 }
 @media only screen and (max-width : 1290px) and (min-width : 1051px) {
    .box {
@@ -179,4 +197,13 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       .socialmedia{
        width: 100%;
    }
+   img.logo {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+        margin-bottom: auto;
+    }
 }
