@@ -158,8 +158,9 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       width: 50%;
       padding-bottom: 50%;
    }
-   .socialmedia{
-       width: 100%;
+    .socialmedia {
+       width: 98%;
+       margin: 1%;
    }
    img.logo {
         display: block;
