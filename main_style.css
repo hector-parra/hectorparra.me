@@ -2,11 +2,12 @@
     font-family: Xolonium; src: url('fonts/Xolonium-Regular.otf');
 }
 body {
+    background-image: "images/Crystal.png";
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%, 100%;
     height: auto;
 	width: 100%;
-    background-position: fixed;
-    background-attachment: fixed;
     margin: 0;
     top: 0px;
     left: 0px;
