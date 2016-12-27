@@ -142,7 +142,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
    }
    img.logo {
         display: block;
-        width: 100%;
+        width: 80%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
