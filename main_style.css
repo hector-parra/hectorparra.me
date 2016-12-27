@@ -138,8 +138,8 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       padding-bottom: 100%;
    }
       .socialmedia {
-       width: 98%;
-       margin: 1%;
+       width: 94%;
+       margin: 3%;
    }
    img.logo {
         display: block;
@@ -159,8 +159,8 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       padding-bottom: 50%;
    }
     .socialmedia {
-       width: 98%;
-       margin: 1%;
+       width: 94%;
+       margin: 3%;
    }
    img.logo {
         display: block;
@@ -179,7 +179,8 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       padding-bottom: 33.3%;
    }
    .socialmedia{
-       width: 100%;
+       width: 94%;
+       margin: 3%;
    }
    img.logo {
         display: block;
@@ -197,7 +198,8 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       padding-bottom: 25%;
    }
       .socialmedia{
-       width: 100%;
+       width: 94%;
+       margin: 3%;
    }
    img.logo {
         display: block;
