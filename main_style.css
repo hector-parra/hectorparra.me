@@ -102,7 +102,7 @@ body {
    width: 20%;
    height: auto;
 }
-.socialmedia {
+.facebook, .twitter {
     display: inline-block;
     position: relative;
     width: 100%;
@@ -128,7 +128,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       width: 100%;
       padding-bottom: 100%;
    }
-      .socialmedia {
+      .facebook, .twitter {
        width: 94%;
        margin: 3%;
    }
@@ -157,7 +157,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       width: 50%;
       padding-bottom: 50%;
    }
-    .socialmedia {
+    .facebook, .twitter {
        width: 94%;
        margin: 3%;
    }
@@ -185,7 +185,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       width: 33.3%;
       padding-bottom: 33.3%;
    }
-   .socialmedia{
+   .facebook, .twitter{
        width: 94%;
        margin: 3%;
    }
@@ -212,9 +212,13 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       width: 25%;
       padding-bottom: 25%;
    }
-      .socialmedia{
-       width: 94%;
-       margin: 3%;
+      .socialmedia {
+          width: 100%;
+      ]}
+      .facebook, .twitter{
+          width: 44%;
+          margin: 3%;
+          float: left;
    }
    img.logo {
         display: block;
