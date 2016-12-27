@@ -252,4 +252,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
 }
 background{
     width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
 }
