@@ -146,7 +146,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
     margin: 5%;
     color: #12387F;
     padding: 4%;
-    border: .5em solid #434343;
+    border: .4em solid #434343;
     font-size: 1em;
 }
 
@@ -175,7 +175,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
     margin: 5%;
     color: #12387F;
     padding: 4%;
-    border: 1em solid #434343;
+    border: .4em solid #434343;
     font-size: 1.1em;
 }
 }
