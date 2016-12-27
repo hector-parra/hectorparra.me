@@ -255,4 +255,5 @@ background{
     height: 100%;
     overflow: hidden;
     position: fixed;
+    background-attachment: fixed;
 }
