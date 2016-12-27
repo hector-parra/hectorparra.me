@@ -120,6 +120,12 @@ body {
    width: 20%;
    height: auto;
 }
+.socialmedia {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
 .boxInner {
    position: absolute;
    left: 10px;
