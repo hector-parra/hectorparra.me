@@ -180,10 +180,3 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
        width: 100%;
    }
 }
-
-
-
-
-.fb-page, .fb-page span, .fb-page span iframe[style] { 
-    width: 100% !important; 
-}
