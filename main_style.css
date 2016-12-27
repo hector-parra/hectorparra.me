@@ -161,3 +161,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus {
       padding-bottom: 25%;
    }
 }
+td{
+    width: auto;
+    height: auto;
+}
